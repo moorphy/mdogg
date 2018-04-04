@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+
+
+@media screen and (max-width: 2500px) {
+
+}
+
+
+@media screen and (max-width: 1400px) {
+
+
+}
+
+@media screen and (max-width: 1100px) {
+
+}
+@media screen and (max-width: 900px) {
+
+
+}
+@media screen and (max-width: 850px) {
+h1  {
+	font-family: 'labor_unionregular';
+	font-size:40px;
+	color:white;	
+	text-shadow:  2px 4px #5e6166;
+
+	}
+h2  {
+	font-family: 'labor_unionsmall';
+	line-height:35px;
+	font-size:25px;
+	color:white;
+	}
+	
+	footer ul li  {
+font-size:75%;
+color:white;
+}
+}
+
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 700px) {
+
+}
+
+
+@media screen and (max-width: 500px) {
+	
+
+}
