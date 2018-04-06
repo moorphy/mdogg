@@ -28,14 +28,12 @@ menu, nav, section { display: block; }
 }
 
 body  {
-	background-image:url(../img/IMG_1834.jpg);
-	background-repeat: no-repeat, repeat;
-	background-size: cover;
+	background: #000000;
 
 }
 
 header  {
-	width:75%;
+	width:80%;
 	margin:20px auto;
 }
 
@@ -44,78 +42,89 @@ header  {
 	margin:auto;
 }
 
-p  {
-	font-family: 'railwayregular';
-	color:white;
-	text-align:left;
-	padding:15px;
-	line-height:25px
-}
 h1  {
 	font-family: 'labor_unionregular';
 	font-size:75px;
 	color:white;	
 	text-shadow:  2px 4px #5e6166;
-
+	text-align: center;
 	}
 h2  {
 	font-family: 'labor_unionsmall';
-	line-height:55px;
 	font-size:45px;
 	color:white;
+	text-align: center;
+	}
+
+h3 {
+	font-family: 'labor_unionsmall';
+	font-size:35px;
+	color:white;
+	text-align: center;
+	padding-bottom: .5em;
+}
+
+a {
+	text-decoration: none;
+	text-underline-position: none;
+	color: #ffffff;
 	}
 
 hr  {
 	color:#FFF;
-	margin:0 15px 0 15px;
+	margin:auto;
 }
-nav  {
-	width:31%;
-	margin:15px 0 0 0;
+
+#sione {
+	display:block;
 	float:left;
+	max-width:50%;
 }
-nav h2  {
-	font-size:32px;
-	line-height:35px;
-	padding:12px;
-	color:white;
-	padding-bottom:25px;
+#sione img{
+	max-width:100%;
 }
-nav ul  {
-text-align:center;
-padding:5px 25px;
+#tour {
+	display:block;
+	float:right;
+	max-width:50%;
 }
-nav ul li  {
+#tour h2 {
+	font-family: 'labor_unionregular';
+	text-align: left;
+	padding-bottom: 10px;
+}
+#tour ul li  {
+	display:inline-block;
+	text-align: left;
+	font-family: 'labor_unionregular';
+	font-size:15px;
+	padding-bottom: 20px;
 	width:100%;
-	float:left;
-	padding:2%;
-	font-family: 'labor_unionsmall';
-	font-size:20px;
-	line-height:16px;
+	color:white;
 }
 
 footer  {
-width:80%;
-margin:20px auto;
-font-family: 'labor_unionsmall';
-font-size:20px;
-height:50px;
-border:15px thick #F8F8F8;
-clear:both;
-line-height:15px;
-padding:25px;
+	width:80%;
+	margin:20px auto;
+	font-family: 'labor_unionsmall';
+	font-size:20px;
+	height:50px;
+	border:15px thick #F8F8F8;
+	clear:both;
+	line-height:15px;
 }
+
 footer ul  {
-text-align:center;
+	text-align:center;
 }
+
 footer ul li  {
-display:inline;
-width:25%;
-padding: 5px 20px 5px 20px;
-color:white;
+	display:inline-block;
+	width:100%;
+	color:white;
 }
 
 footer hr  {
 	width:80%;
-	margin:20px auto 20px auto;
+	margin:5px auto 5px auto;
 }
