@@ -67,7 +67,14 @@ h3 {
 h3:hover {
 	color:#b042f4;	
 }
-
+h4 {
+	font-family: 'labor_unionsmall';
+	font-size:28px;
+	color:#ffffff;
+}
+#tour ul li:hover {
+	color:#b042f4;	
+}
 a {
 	text-decoration: none;
 	text-underline-position: none;
